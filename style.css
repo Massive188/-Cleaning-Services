@@ -1,0 +1,576 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  /* Ensures no default margin is applied */
+  padding: 0;
+  /* Ensures no default padding is applied */
+  box-sizing: border-box;
+  /* Ensures padding and border are included in the width */
+}
+
+.navbar {
+  z-index: 1000;
+  background: #fafafa;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-logo {
+  max-width: 80px;
+  height: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #397F77 !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #397F77 !important;
+  color: white !important;
+}
+
+#contactbtn {
+  background-color: #397F77;
+  border: none;
+}
+
+#contactbtn:hover {
+  background-color: #285951;
+}
+
+
+
+.overlay-content-textbtn {
+  position: relative;
+  top: 80px;
+}
+
+.overlay-content-textbtn {
+  position: relative;
+  top: -10px;
+}
+
+#contactbtn {
+  position: relative;
+}
+
+/*home image assets*/
+.image_asset-container {
+  position: relative;
+  width: 110%;
+  /* Adjust as needed */
+  height: auto;
+}
+
+.image_asset-container #living {
+  width: 100%;
+  height: auto;
+
+}
+
+/* Overlay image with Para */
+.image-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.image-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  /* Adjust width for padding */
+  height: 100%;
+
+  box-sizing: border-box;
+  padding: 20px;
+  /* Padding inside the overlay content */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay for text readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.overlay-content p {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  /* Adjust font size as needed */
+  margin-bottom: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.overlay-content h2 {
+  font-size: 3em;
+  margin-bottom: 12rem;
+}
+
+.overlay-content h2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  top: 50%;
+  font-weight: 700;
+  font-family: Merienda, 'Merienda Fallback';
+  margin-right: 1px;
+  margin-left: 1%;
+}
+
+.Our_services {
+  width: 100%;
+}
+/*text color change for contact us*/
+.modal a{
+  color: rgb(26, 224, 221);
+}
+/*End contact us change*/
+.overlay-content #contactbtn {
+  display: flex;
+  font-size:small;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-end-end-radius: 22px;
+  border-top-left-radius: 20px;
+  text-align: center;
+}
+
+.overlay-content-textbtn {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+
+.overlay-content-textbtn #contactbtn{
+  size: 5px;
+  position: relative;
+  top: -40px;
+  
+}
+.overlay-content button {
+  color: black;
+  /* Button text color */
+  transition: background-color 0.3s;
+  border-radius: 5px;
+ 
+
+}
+
+.overlay-content button:hover {
+  background-color: #ddd;
+  /* Button hover color */
+}
+
+
+/* Our Services */
+.Our_services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #397F77;
+  color: white;
+  font-size: 33px;
+}
+
+/*Zip code*/
+.zip-input-container {
+  margin-top: 1rem;
+  /* Space between text and ZIP input */
+  display: inline-block;
+  /* Center the form in the div */
+
+  border-radius: 20px;
+  /* Rounded corners for form */
+  padding: 15px 25px;
+  /* Padding inside form */
+
+}
+
+/*Service-section-icons*/
+.service-section {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+.service {
+  text-align: center;
+  padding: 15px;
+}
+.service-icon {
+  font-size: 2rem; /* Adjust size accordingly */
+  color: #f96c2f; /* Adjust to match the color scheme of the icons */
+}
+.service-title {
+  
+  color: #daf110;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.service-text {
+  color: #666;
+}
+
+.cleaning-image {
+  width: 100%;
+  height: auto;
+}
+.section-header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.section-content {
+  padding: 20px;
+}
+/*Service-section-icons*/
+.zip-input-container form {
+  display: inline-block;
+  margin-top: 20px;
+  background: rgb(255, 254, 254);
+  /* Semi-transparent background */
+  border-radius: 20px;
+  padding: 15px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow for depth */
+}
+
+.zip-input-container input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 200px;
+  /* Adjust width as needed */
+}
+
+.zip-input-container button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #397F77;
+  /* Match your theme */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.zip-input-container button:hover {
+  background-color: #2a5d5b;
+  /* Slightly darker on hover */
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content contact*/
+.modal-content {
+  background-color: #349877;
+  margin: 10% auto;
+  /* 15% from the top and centered */
+  padding: 40px;
+  border: 1px solid #fdfcfc;
+  text-align: center;
+  width: 20%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 2s linear;
+}
+
+/*main content*/
+main {
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+}
+main section{
+  width: 100%;
+  height: auto;
+}
+main section {
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+/*main-intro content*/
+.main-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.intro-content {
+  width: 50%;
+}
+
+.intro-content h1 {
+  font-size: 2em;
+  color: #136a64;
+  margin-bottom: 0.5em;
+}
+
+.intro-content p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+.read-more-btn {
+  padding: 10px 20px;
+  background-color: #397F77;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #2a5d5b;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Service cards with overlay */
+
+.service-section {
+  width: 101%;
+}
+
+/* Ensure the service section takes the full width */
+.services,
+.service-section {
+  width: 101%;
+  background-color: #397F77;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+}
+
+.service .service-text{
+  color: white;
+}
+
+/* Service cards with overlay */
+.service-card {
+  width: 100%; /* Ensures the card stretches to the full width of its parent */
+  max-width: 100%; /* This might be redundant but ensures no limit is placed on the card's width */
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1px;
+
+
+}
+
+.image-container img {
+  width: 100%;
+  /* Full width of its parent */
+  height: auto;
+  /* Maintain aspect ratio */
+
+}
+.container, .row, main {
+  width: 100%;
+}
+.service-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent overlay */
+  opacity: 0;
+  /* Hidden by default */
+  transition: opacity 0.3s;
+  /* Smooth fade-in effect */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-overlay-content {
+  color: white;
+  text-align: center;
+
+}
+
+.service-card:hover .service-overlay {
+  opacity: 1;
+  /* Show overlay on hover */
+}
+
+/* Content below the image */
+.service-content {
+
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*site footer*/
+.site-footer {
+  background-color: #2c3e50;
+  /* Dark background for contrast */
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  /* ... other styles ... */
+  justify-content: center;
+  align-items: center;
+  /* Align items to the start for a neater look */
+}
+
+.footer-section h3 {
+  color: #f1c40f;
+  /* A color that stands out */
+  margin-bottom: 1rem;
+  /* Space below headings */
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section {
+  padding-top: 20px;
+}
+
+.footer-section ul li a {
+  color: #bdc3c7;
+  /* Light grey for readability */
+  transition: color 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section ul li a:hover {
+  color: #f1c40f;
+  /* Highlight color on hover */
+}
+
+.footer-section h3 {
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom {
+  /* ... other styles ... */
+  font-size: 0.85rem;
+  color: #bdc3c7;
+  /* Light grey for readability */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

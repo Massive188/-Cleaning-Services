@@ -1,0 +1,79 @@
+/* Adjustments for medium-sized devices like tablets (less than 1199px) */
+@media (max-width: 1199px) {
+  .nav-logo {
+    max-width: 60px; /* Smaller logo for smaller screens */
+  }
+
+  .overlay-content h2,
+  .overlay-content p {
+    font-size: smaller; /* Adjust text size for better readability */
+  }
+}
+
+/* Adjustments for devices smaller than 991px (includes high-end tablets and landscape phones) */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem; /* More padding for touch targets */
+  }
+
+  .overlay-content,
+  .overlay-content-textbtn {
+    padding: 5px; /* Reduced padding for overlay content */
+  }
+
+  .service-card {
+    width: 100%; /* Stack service cards vertically */
+  }
+
+  .footer-section {
+    padding: 1rem;
+    align-items: center;
+    text-align: center; /* Centered text and content in the footer */
+  }
+
+  .intro-content,
+  .main-intro {
+    flex-direction: column; /* Stack content vertically for better readability */
+  }
+}
+
+/* Adjustments for devices smaller than 767px (mostly smartphones) */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px; /* Smaller font size for smaller screens */
+  }
+
+  .navbar-toggler {
+    margin: 0.25rem 0; /* Adjusted margin for navbar toggler */
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem; /* Spacing between nav items */
+  }
+
+  .service-card {
+    margin-bottom: 1rem; /* Spacing after each service card */
+  }
+
+  .footer-content,
+  .footer-section {
+    flex-direction: column;
+    text-align: center; /* Center-aligned footer content for better accessibility */
+  }
+
+  .navbar-collapse {
+    text-align: center; /* Center-aligned navbar items when collapsed */
+  }
+
+  .overlay-content {
+    padding: 10px; /* Adjusted padding for overlay content */
+    text-align: center; /* Center-aligned text for overlays */
+  }
+
+  .zip-input-container form,
+  .modal-content {
+    width: 90%; /* Adjusted width for forms and modals for edge-to-edge design */
+  }
+}
+
+
